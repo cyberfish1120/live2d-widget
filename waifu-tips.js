@@ -25,7 +25,7 @@ live2d_settings['tipsMessage']          = 'waifu-tips.json';            // 同�
 live2d_settings['hitokotoAPI']          = 'lwl12.com';                  // 一言 API，可选 'lwl12.com', 'hitokoto.cn', 'jinrishici.com'(古诗词)
 
 // 默认模型
-live2d_settings['modelId']              = 1;            // 默认模型 ID，可在 F12 控制台找到
+live2d_settings['modelId']              = 5;            // 默认模型 ID，可在 F12 控制台找到
 live2d_settings['modelTexturesId']      = 53;           // 默认材质 ID，可在 F12 控制台找到
 
 // 工具栏设置
@@ -60,7 +60,7 @@ live2d_settings['waifuToolLine']        = '20px';       // 工具栏行高，例
 live2d_settings['waifuToolTop']         = '0px'         // 工具栏顶部边距，例如 '0px', '-60px'
 live2d_settings['waifuMinWidth']        = '768px';      // 面页小于 指定宽度 隐藏看板娘，例如 'disable'(禁用), '768px'
 live2d_settings['waifuEdgeSide']        = 'left:0';     // 看板娘贴边方向，例如 'left:0'(靠左 0px), 'right:30'(靠右 30px)
-live2d_settings['waifuDraggable']       = 'disable';    // 拖拽样式，例如 'disable'(禁用), 'axis-x'(只能水平拖拽), 'unlimited'(自由拖拽)
+live2d_settings['waifuDraggable']       = 'unlimited';    // 拖拽样式，例如 'disable'(禁用), 'axis-x'(只能水平拖拽), 'unlimited'(自由拖拽)
 live2d_settings['waifuDraggableRevert'] = true;         // 松开鼠标还原拖拽位置，可选 true(真), false(假)
 
 // 其他杂项设置
